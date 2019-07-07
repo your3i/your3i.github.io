@@ -1,0 +1,100 @@
+$color-dark: #333333;
+$color-primary: #00F49B;
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 16%;
+  padding-right: 16%;
+  color: $color-dark;
+  font-family: Helvetica Neue,Helvetica,Arial,YuGothic,Yu Gothic,游ゴシック体,游ゴシック,ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,MS ゴシック,MS Gothic,sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::selection {
+  background: $color-primary;
+}
+::-moz-selection {
+  background: $color-primary;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: $color-primary;
+  color: black;
+  -webkit-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  margin: 12px 0px;
+}
+
+.header {
+  border-bottom: 1px solid $color-dark;
+  margin: 32px 0;
+  padding: 8px 0;
+}
+
+.post-content {
+  line-height: 1.85em;
+}
+
+.post-content .title {
+  text-align: center;
+}
+
+.post-content .date {
+  text-align: center;
+}
+
+.post-content h1 {
+  font-size: 26px;
+}
+
+.post-content h2 {
+  font-size: 22px;
+}
+
+.post-content h3 {
+  font-size: 18px;
+}
+
+.post-content .highlight {
+  padding: 4px;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: black;
+  color: $color-primary;
+}
+
+.post-content a {
+  padding: 0;
+  border-radius: 0;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
