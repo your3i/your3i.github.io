@@ -1,12 +1,65 @@
----
-layout: default
-title: your3i
----
-<ul class="list">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
-<div style="background-image: url(/assets/images/home.jpg); height: 280px; background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+  <section class="section column-section section-bio">
+    <div style="height: 260px; background-image: url(assets/images/kame.jpeg); background-position: center;">
+    </div>
+    <!-- <figure class="logo"></figure> -->
+    <p class="bio">Hi! I'm Ling. I'm from China and living in Japan. <br/>I work as a mobile engineer.<br/>Spending most of my time tapping on the keyboard to make things or fix things. <br>I also like travelling and watching movies. 🏖</p>
+  </section>
+  <section class="section column-section-main">
+    <div class="col-section">
+      <h2 class="main-text">Skills</h2>
+      <dl class="list">
+        <dt class="main-text main-text-small">iOS Development</dt>
+        <dd class="list-item">
+          <!-- <a class="list-link" href="#">aiga.org</a> -->
+        </dd>
+        <dt class="main-text main-text-small">Android Development</dt>
+        <dd class="list-item">
+          <!-- <a class="list-link" href="#">apple.com</a> -->
+        </dd>
+        <dt class="main-text main-text-small">Flutter</dt>
+        <dd class="list-item">
+          <!-- <a class="list-link" href="#">google.com</a> -->
+        </dd>
+        <dt class="main-text main-text-small">REST API</dt>
+        <dd class="list-item">
+          <!-- <a class="list-link" href="#">microsoft.com</a> -->
+        </dd>
+        <dt class="main-text main-text-small">MySQL</dt>
+          <dd class="list-item">
+          <!-- <a class="list-link" href="#">mashable.com</a> -->
+        </dd>
+        <dt class="main-text main-text-small">AWS</dt>
+          <dd class="list-item">
+          <!-- <a class="list-link" href="#">vox.com</a> -->
+        </dd>
+      </dl>
+    </div>
+    <!-- <div class="col-section">
+      <h2 class="main-text">Work</h2>
+      <dl class="list">
+        <dt class="main-text main-text-small">AIGA Fellow Award</dt>
+        <dd class="list-item">
+          <a class="list-link" href="#">aiga.org</a>
+        </dd>
+      </dl>
+    </div> -->
+  </section>
+  <footer class="footer main-text main-text-small">
+    <a class="footer-links link-dribbble" href="https://github.com/your3i">github</a>
+    <a class="footer-links link-facebook" href="https://www.facebook.com/your3i76">facebook</a>
+    <a class="footer-links link-twitter" href="https://www.linkedin.com/in/ling-y-b83043215/">linkedin</a>
+    <a class="footer-links link-instagram" href="https://zenn.dev/your3i">zenn</a>
+    <a class="footer-links link-twitter" href="https://twitter.com/your3i">twitter</a>
+  </footer>
+</body>
+
+</html>
